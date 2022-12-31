@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400;1,900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,400;1,500;1,700;1,900&display=swap');
+.img{
+    background-image: url("./bgim.jpg"); 
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    mix-blend-mode: lighten;
+ 
+}
+
+.no_display{
+
+    display: none;
+}
+.welcome{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    color: rgb(175, 199, 245);
+    font-size: 50px;
+    
+}
+.input{
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.input input {
+    height: 40px;
+    width: 300px;
+    border: none;
+    font-size: 20px;
+    padding: 2px;
+
+    
+
+}
+.input button{
+  height: 44px;
+  width: 100px;
+  border: none;
+  
+  cursor: pointer;
+  background-color: rgba(21, 38, 226, 0.812);
+    
+
+}
+.input input :checked{
+
+    border: none;
+}
+.glass1{
+    background: rgba(255,255,255,0.4);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+    border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    width: 30%;
+    height: auto;
+   transform: translateY(50%);
+   margin-left: 533px;
+    
+    
+}
+
+.glass1 h1{
+    text-align: center;
+}
+.glass1 h1 span{
+    font-size: 20px;
+    
+}
+.container{
+   
+    background-color: aqua; 
+   border-radius: 10px;
+   
+       
+
+}
+.child{
+    background-color: rgb(1, 171, 92);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.con2{
+    background-color:rgb(1, 171, 92);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.c1{
+    margin-left: -20px;
+}
+.c2{
+    margin-left: -20px;
+}
+h6{
+    font-size: 15px;
+    margin-top: -10px;
+    color: rgb(206, 212, 112);
+}
+.container h3{
+    color: rgb(218, 242, 255);
+}
